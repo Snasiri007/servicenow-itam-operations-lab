@@ -69,17 +69,39 @@ Investigated **hardware asset `P1000010` (IBM Power 710 Express)** and linked CI
 
 **Recommended next action:** Confirm accountable ownership with the appropriate infrastructure team and verify the serial number through an authorized inventory source or physical inspection. Investigation notes were saved without changing unverified asset or CI fields.
 
-## Evidence
+## Visual Evidence
 
-Screenshots will be added after review. Planned evidence:
+The screenshots below document work completed in a ServiceNow Personal Developer Instance using demonstration records. Counts represent the lab dataset at the time of review.
 
-- Asset lifecycle transition and linked CI
-- Missing serial-number report
-- High-value ownership review report
-- Five-widget operations dashboard
-- Asset-to-CI investigation
+### 1. ITAM Operations & Compliance Dashboard
 
-Before publishing screenshots, obscure credentials, access tokens, personal contact information, or any sensitive details.
+Five operational widgets summarize the hardware inventory, lifecycle states, model categories, missing serial numbers, and high-value ownership review queue.
+
+![ServiceNow ITAM Operations and Compliance Dashboard](screenshots/01-operations-compliance-dashboard.png)
+
+### 2. Missing Serial Numbers Report
+
+Filtered hardware records identify **66 in-use computer assets** with empty serial-number fields for further validation.
+
+![ServiceNow Missing Serial Numbers Report](screenshots/02-missing-serial-numbers-report.png)
+
+### 3. High-Value Ownership Review
+
+A targeted report identifies **16 in-use hardware assets** with costs of at least $5,000 and no assigned user. These records require contextual review; they are not automatically confirmed compliance failures.
+
+![ServiceNow High-Value Ownership Review](screenshots/03-high-value-ownership-report.png)
+
+### 4. High-Value Asset Investigation
+
+Asset-level investigation documents ownership and serial-number gaps, with remediation recommendations based on verification rather than assumptions.
+
+![ServiceNow High-Value Asset Investigation](screenshots/04-high-value-asset-investigation.png)
+
+### 5. CMDB Reconciliation Notes
+
+Review of hardware asset and linked configuration-item information documents discrepancies and follow-up actions without populating unverified fields.
+
+![ServiceNow CMDB Reconciliation Notes](screenshots/05-cmdb-reconciliation-notes.png)
 
 ## Next Steps
 
