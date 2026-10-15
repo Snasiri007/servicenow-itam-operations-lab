@@ -115,3 +115,5 @@ Effective ITAM combines accurate lifecycle records, CMDB relationships, targeted
 ---
 
 *Independent hands-on lab project; not a claim of production deployment or professional certification.*
+
+*Created by Sadaf Nasiri as an independent hands-on portfolio project.*
