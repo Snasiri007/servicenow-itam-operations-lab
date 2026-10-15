@@ -106,7 +106,7 @@ Review of hardware asset and linked configuration-item information documents dis
 ## Next Steps
 
 - Classify and prioritize high-value asset exceptions using verified business context.
-- Add screenshots and concise investigation walkthroughs.
+- Expand the documented investigation walkthroughs and prioritize exceptions using verified business context.
 
 ## Key Takeaway
 
